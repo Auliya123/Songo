@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32FEB6AD3062D6F40066A449 /* songo Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 32FEB6AC3062D6F40066A449 /* songo Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		32FEB6AD3062D6F40066A449 /* Songo Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 32FEB6AC3062D6F40066A449 /* Songo Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -16,7 +16,7 @@
 			containerPortal = 32FEB6A03062D6F40066A449 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 32FEB6AB3062D6F40066A449;
-			remoteInfo = "songo Watch App";
+			remoteInfo = "Songo Watch App";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -27,7 +27,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				32FEB6AD3062D6F40066A449 /* songo Watch App.app in Embed Watch Content */,
+				32FEB6AD3062D6F40066A449 /* Songo Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,14 +35,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		32FEB6A63062D6F40066A449 /* songo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = songo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		32FEB6AC3062D6F40066A449 /* songo Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "songo Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FEB6A63062D6F40066A449 /* Songo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Songo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FEB6AC3062D6F40066A449 /* Songo Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Songo Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		32FEB6B03062D6F40066A449 /* songo Watch App */ = {
+		32FEB6B03062D6F40066A449 /* Songo Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "songo Watch App";
+			path = "Songo Watch App";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -61,7 +61,7 @@
 		32FEB69F3062D6F40066A449 = {
 			isa = PBXGroup;
 			children = (
-				32FEB6B03062D6F40066A449 /* songo Watch App */,
+				32FEB6B03062D6F40066A449 /* Songo Watch App */,
 				32FEB6A73062D6F40066A449 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,8 +69,8 @@
 		32FEB6A73062D6F40066A449 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				32FEB6A63062D6F40066A449 /* songo.app */,
-				32FEB6AC3062D6F40066A449 /* songo Watch App.app */,
+				32FEB6A63062D6F40066A449 /* Songo.app */,
+				32FEB6AC3062D6F40066A449 /* Songo Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,9 +78,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		32FEB6A53062D6F40066A449 /* songo */ = {
+		32FEB6A53062D6F40066A449 /* Songo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32FEB6BD3062D6F60066A449 /* Build configuration list for PBXNativeTarget "songo" */;
+			buildConfigurationList = 32FEB6BD3062D6F60066A449 /* Build configuration list for PBXNativeTarget "Songo" */;
 			buildPhases = (
 				32FEB6A43062D6F40066A449 /* Resources */,
 				32FEB6BC3062D6F60066A449 /* Embed Watch Content */,
@@ -90,16 +90,16 @@
 			dependencies = (
 				32FEB6AF3062D6F40066A449 /* PBXTargetDependency */,
 			);
-			name = songo;
+			name = Songo;
 			packageProductDependencies = (
 			);
-			productName = songo;
-			productReference = 32FEB6A63062D6F40066A449 /* songo.app */;
+			productName = Songo;
+			productReference = 32FEB6A63062D6F40066A449 /* Songo.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		32FEB6AB3062D6F40066A449 /* songo Watch App */ = {
+		32FEB6AB3062D6F40066A449 /* Songo Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32FEB6B93062D6F60066A449 /* Build configuration list for PBXNativeTarget "songo Watch App" */;
+			buildConfigurationList = 32FEB6B93062D6F60066A449 /* Build configuration list for PBXNativeTarget "Songo Watch App" */;
 			buildPhases = (
 				32FEB6A83062D6F40066A449 /* Sources */,
 				32FEB6A93062D6F40066A449 /* Frameworks */,
@@ -110,13 +110,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				32FEB6B03062D6F40066A449 /* songo Watch App */,
+				32FEB6B03062D6F40066A449 /* Songo Watch App */,
 			);
-			name = "songo Watch App";
+			name = "Songo Watch App";
 			packageProductDependencies = (
 			);
-			productName = "songo Watch App";
-			productReference = 32FEB6AC3062D6F40066A449 /* songo Watch App.app */;
+			productName = "Songo Watch App";
+			productReference = 32FEB6AC3062D6F40066A449 /* Songo Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +137,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 32FEB6A33062D6F40066A449 /* Build configuration list for PBXProject "songo" */;
+			buildConfigurationList = 32FEB6A33062D6F40066A449 /* Build configuration list for PBXProject "Songo" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -151,8 +151,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				32FEB6A53062D6F40066A449 /* songo */,
-				32FEB6AB3062D6F40066A449 /* songo Watch App */,
+				32FEB6A53062D6F40066A449 /* Songo */,
+				32FEB6AB3062D6F40066A449 /* Songo Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -187,7 +187,7 @@
 /* Begin PBXTargetDependency section */
 		32FEB6AF3062D6F40066A449 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 32FEB6AB3062D6F40066A449 /* songo Watch App */;
+			target = 32FEB6AB3062D6F40066A449 /* Songo Watch App */;
 			targetProxy = 32FEB6AE3062D6F40066A449 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -319,7 +319,7 @@
 				DEVELOPMENT_TEAM = NJYYRNFLHT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = songo;
+				INFOPLIST_KEY_CFBundleDisplayName = Songo;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -338,7 +338,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+				WATCHOS_DEPLOYMENT_TARGET = 11.6;
 			};
 			name = Debug;
 		};
@@ -352,7 +352,7 @@
 				DEVELOPMENT_TEAM = NJYYRNFLHT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = songo;
+				INFOPLIST_KEY_CFBundleDisplayName = Songo;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -372,7 +372,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+				WATCHOS_DEPLOYMENT_TARGET = 11.6;
 			};
 			name = Release;
 		};
@@ -382,7 +382,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NJYYRNFLHT;
-				INFOPLIST_KEY_CFBundleDisplayName = songo;
+				INFOPLIST_KEY_CFBundleDisplayName = Songo;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.michelle.songo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -399,7 +399,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NJYYRNFLHT;
-				INFOPLIST_KEY_CFBundleDisplayName = songo;
+				INFOPLIST_KEY_CFBundleDisplayName = Songo;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.michelle.songo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,7 +414,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		32FEB6A33062D6F40066A449 /* Build configuration list for PBXProject "songo" */ = {
+		32FEB6A33062D6F40066A449 /* Build configuration list for PBXProject "Songo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32FEB6B73062D6F60066A449 /* Debug */,
@@ -423,7 +423,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		32FEB6B93062D6F60066A449 /* Build configuration list for PBXNativeTarget "songo Watch App" */ = {
+		32FEB6B93062D6F60066A449 /* Build configuration list for PBXNativeTarget "Songo Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32FEB6BA3062D6F60066A449 /* Debug */,
@@ -432,7 +432,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		32FEB6BD3062D6F60066A449 /* Build configuration list for PBXNativeTarget "songo" */ = {
+		32FEB6BD3062D6F60066A449 /* Build configuration list for PBXNativeTarget "Songo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32FEB6BE3062D6F60066A449 /* Debug */,
