@@ -19,17 +19,20 @@ class MotionManager: ObservableObject{
             return
         }
 
+        guard !motionManager.isDeviceMotionActive else { return }
+
         motionManager.deviceMotionUpdateInterval = 1.0/30.0
 
         motionManager.startDeviceMotionUpdates(to: .main){[weak self] data, error in
-        guard let data = data else{return}
-        self?.roll = data.attitude.roll
-
+            guard let data = data else{return}
+            self?.roll = data.attitude.roll
         }
 
     }
 
     func stopUpdates(){
-        motionManager.stopDeviceMotionUpdates()
+        if motionManager.isDeviceMotionActive {
+            motionManager.stopDeviceMotionUpdates()
+        }
     }
 }

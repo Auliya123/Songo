@@ -319,6 +319,7 @@
 				DEVELOPMENT_TEAM = NJYYRNFLHT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/SongoWatchApp-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Songo;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
@@ -352,6 +353,7 @@
 				DEVELOPMENT_TEAM = NJYYRNFLHT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/SongoWatchApp-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Songo;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
