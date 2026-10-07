@@ -18,8 +18,9 @@ Songo is a native watchOS math game that challenges players to determine whether
 
 ## Video Screenshot
 
-https://github.com/user-attachments/assets/3ede3e77-d99a-4690-ab94-32bff6edb9ed
-
+| Manually (Touch Buttons) |  By Tilt (Motion Gesture) |
+| :--- | :--- |
+| https://github.com/user-attachments/assets/3ede3e77-d99a-4690-ab94-32bff6edb9ed | https://github.com/user-attachments/assets/0cb79114-51c7-4b16-907a-3812c65f077f |
 ## Requirements
 
 - watchOS 10.0+ (Deployment target: watchOS 11.6)
