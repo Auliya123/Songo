@@ -12,15 +12,13 @@ Songo is a native watchOS math game that challenges players to determine whether
 
 ## Screenshots
 
-<img width="240" alt="Songo Ready Screen" src="https://github.com/user-attachments/assets/your-ready-screen-id" />
-
-<img width="240" alt="Songo Gameplay" src="https://github.com/user-attachments/assets/your-gameplay-id" />
-
-<img width="240" alt="Songo Game Over" src="https://github.com/user-attachments/assets/your-gameover-id" />
+| Ready Screen | Gameplay | Game Over / New Record |
+| :--- | :--- | :--- |
+| <img width="374" height="446" alt="Simulator Screenshot - Apple Watch Series 11 (42mm) - 2026-10-07 at 22 12 27" src="https://github.com/user-attachments/assets/1b14e1f6-2c18-49e6-8113-cd372665a7d6" /> | <img width="374" height="446" alt="Simulator Screenshot - Apple Watch Series 11 (42mm) - 2026-10-07 at 22 12 39" src="https://github.com/user-attachments/assets/7df4ee3a-7fbb-4215-8d59-61c99516c7be" /> | <img width="374" height="446" alt="Simulator Screenshot - Apple Watch Series 11 (42mm) - 2026-10-07 at 22 13 26" src="https://github.com/user-attachments/assets/e04e1164-4032-4b51-a3e8-d60eb081c043" /> |
 
 ## Video Screenshot
 
-https://github.com/user-attachments/assets/your-demo-video-id
+https://github.com/user-attachments/assets/3ede3e77-d99a-4690-ab94-32bff6edb9ed
 
 ## Requirements
 
