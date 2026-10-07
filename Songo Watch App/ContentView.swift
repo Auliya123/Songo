@@ -30,11 +30,7 @@ struct ContentView: View {
             }
         }
         .padding()
-        .onAppear {
-            viewModel.startAppSession()
-        }
         .onDisappear {
-            viewModel.stopAppSession()
             viewModel.motion.stopUpdates()
         }
     }

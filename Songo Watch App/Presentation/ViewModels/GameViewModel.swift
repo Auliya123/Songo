@@ -25,18 +25,15 @@ class GameViewModel: ObservableObject {
     let motion: MotionManager
     private let haptic: HapticServiceProtocol
     private let timer: TimerServiceProtocol
-    private let sessionManager: GameSessionManager
     
     init(
         motion: MotionManager,
         haptic: HapticServiceProtocol,
-        timer: TimerServiceProtocol,
-        sessionManager: GameSessionManager = GameSessionManager()
+        timer: TimerServiceProtocol
     ) {
         self.motion = motion
         self.haptic = haptic
         self.timer = timer
-        self.sessionManager = sessionManager
         loadHighScore()
         setupMotionSubscription()
     }
@@ -89,7 +86,6 @@ class GameViewModel: ObservableObject {
         gameState = .playing
         
         motion.startUpdates()
-        sessionManager.startSession()
         
         timer.start { [weak self] in
             self?.handleTimer()
@@ -135,14 +131,6 @@ class GameViewModel: ObservableObject {
         timer.stop()
         motion.stopUpdates()
         gameState = .ready
-    }
-    
-    func startAppSession() {
-        sessionManager.startSession()
-    }
-    
-    func stopAppSession() {
-        sessionManager.stopSession()
     }
     
     private func handleTimer() {
